@@ -1,5 +1,6 @@
 
 import Button from '../Button';
+import Display from '../Display';
 import './styles.css';
 export default function  Calculator(){
 
@@ -7,6 +8,7 @@ export default function  Calculator(){
     <>
 
     <div className='calculator'>
+      <Display value={100}/>
       <Button label="AC" />
       <Button label="/" />
       <Button label="7" />
